@@ -1,0 +1,21 @@
+.repel-text {
+  display: flex;
+}
+
+.repel-text .char {
+  display: inline-block;
+  transition: transform 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  cursor: default;
+}
+pre {
+  display: flex;
+  flex-direction: column;
+  h1 {
+    margin: 0;
+    font-size: 1vw;
+    color: white;
+    .char {
+      background-color: #6283409d;
+    }
+  }
+}
